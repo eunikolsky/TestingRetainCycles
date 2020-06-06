@@ -6,8 +6,9 @@
 //  Copyright © 2020 yes. All rights reserved.
 //
 
-import XCTest
+import ReactiveSwift
 import TestingRetainCycles
+import XCTest
 
 class TestingRetainCyclesTests: XCTestCase {
 

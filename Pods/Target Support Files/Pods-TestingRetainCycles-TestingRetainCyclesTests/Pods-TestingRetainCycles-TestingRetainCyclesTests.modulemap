@@ -1,0 +1,6 @@
+framework module Pods_TestingRetainCycles_TestingRetainCyclesTests {
+  umbrella header "Pods-TestingRetainCycles-TestingRetainCyclesTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
