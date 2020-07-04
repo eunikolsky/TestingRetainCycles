@@ -10,7 +10,7 @@ public protocol DownloaderDelegate: class {
 }
 
 public class Downloader {
-    public var delegate: DownloaderDelegate?
+    public weak var delegate: DownloaderDelegate?
 
     public func download(url: URL) {
         NSLog("Start downloading \(url)")
