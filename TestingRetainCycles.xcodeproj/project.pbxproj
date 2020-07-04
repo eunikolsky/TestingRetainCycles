@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7523B24B4B35F9C27A37B742 /* TestingRetainCyclesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75EBC5953C6505DDE00AAD87 /* TestingRetainCyclesTests.swift */; };
+		7566F3F7B053ED7B28663883 /* Downloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7570F23DDFB08F8FA5B13493 /* Downloader.swift */; };
 		75956F5140E465751DA40973 /* TestingRetainCycles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75D9691FA303782AC42C2C9A /* TestingRetainCycles.framework */; };
 		75E0517427F8D26AF2B84B2F /* TestingRetainCycles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75636014004E4E8F7813EDC3 /* TestingRetainCycles.swift */; };
 		B3640FEF94547EB5BA661C5B /* Pods_TestingRetainCycles.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 268494FF1E104BF8275F3248 /* Pods_TestingRetainCycles.framework */; };
@@ -30,6 +31,7 @@
 		7529B740FC42DC7E71051E9C /* TestingRetainCyclesTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestingRetainCyclesTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7536E0208AABCB43F0870F95 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		75636014004E4E8F7813EDC3 /* TestingRetainCycles.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestingRetainCycles.swift; sourceTree = "<group>"; };
+		7570F23DDFB08F8FA5B13493 /* Downloader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Downloader.swift; sourceTree = "<group>"; };
 		7574D0DC3DF89433B2848F13 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = Info.plist; sourceTree = "<group>"; };
 		75D9691FA303782AC42C2C9A /* TestingRetainCycles.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TestingRetainCycles.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EBC5953C6505DDE00AAD87 /* TestingRetainCyclesTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestingRetainCyclesTests.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 			children = (
 				7574D0DC3DF89433B2848F13 /* Info.plist */,
 				75636014004E4E8F7813EDC3 /* TestingRetainCycles.swift */,
+				7570F23DDFB08F8FA5B13493 /* Downloader.swift */,
 			);
 			path = TestingRetainCycles;
 			sourceTree = "<group>";
@@ -295,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				75E0517427F8D26AF2B84B2F /* TestingRetainCycles.swift in Sources */,
+				7566F3F7B053ED7B28663883 /* Downloader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
